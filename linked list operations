@@ -36,9 +36,9 @@ snode *first = NULL, *last = NULL;
 
     while (ans == 'Y'||ans == 'y')
     {
-        printf("\n---------------------------------\n");
+        printf("\n");
         printf("\nOperations on singly linked list\n");
-        printf("\n---------------------------------\n");
+        printf("\n");
         printf("\n1.Insert node at first");
         printf("\n2.Insert node at last");
         printf("\n3.Insert node at position");
@@ -49,7 +49,7 @@ snode *first = NULL, *last = NULL;
         printf("\n8.Display List from Beginning to end");
         printf("\n9.Display List from end using Recursion");
         printf("\n10.Exit\n");
-        printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+        printf("\n");
         printf("\nEnter your choice");
         scanf("%d", &ch);
 
